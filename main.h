@@ -20,5 +20,6 @@ int print_i(va_list i);
 void unsignde_number_to_string(int number, int base, char *buffer);
 int ini_printf_di(const char *format, va_list args);
 void number_to_string(int number, int base, char *buffer);
-
+int _strlenc(const char *s);
+int _strlen(char *s);
 #endif
